@@ -15,9 +15,8 @@ It showcases my education, skills, projects, certifications, and contact informa
 - Responsive Design for mobile and desktop
 
 ## Preview
+![image](https://github.com/user-attachments/assets/9014be24-3815-4299-b3c8-628582e5dc87)
 
-![Screenshot](images/preview.png)  
-*(Add a screenshot of your website here after hosting or saving locally)*
 
 ## Technologies Used
 
