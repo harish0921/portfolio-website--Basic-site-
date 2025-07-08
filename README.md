@@ -1,4 +1,4 @@
-# Personal Basic Portfolio Website - Harish R
+# devops-ci-cd-project Website - Harish R
 
 This is a personal portfolio website built using HTML and CSS.  
 It showcases my education, skills, projects, certifications, and contact information in a clean, responsive layout.
