@@ -1,13 +1,14 @@
-# CI/CD Pipeline Project
+# CI/CD Pipeline Project - HTML Static Web App
 
-This project demonstrates CI/CD automation using Jenkins and Docker.  
-Base application built with [Portfolio].
+A simple static website built with HTML and CSS, containerized with Docker, and deployed via Jenkins in a CI/CD pipeline.
 
-## Features
-- Jenkins for CI/CD
+## Project Highlights
+- HTML/CSS static web app
 - Docker containerization
-- Automated deployment
+- Jenkins automation (CI/CD)
+- GitHub integration
 
-## Stack
-HTML | Jenkins | Docker | GitHub
-
+## Run Locally
+```bash
+docker build -t devops-static-site .
+docker run -p 8080:80 devops-static-site
