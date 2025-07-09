@@ -1,33 +1,14 @@
-# devops-ci-cd-project Website - Harish R
+# CI/CD Pipeline Project - HTML Static Web App
 
-This is a personal portfolio website built using HTML and CSS.  
-It showcases my education, skills, projects, certifications, and contact information in a clean, responsive layout.
+A simple static website built with HTML and CSS, containerized with Docker, and deployed via Jenkins in a CI/CD pipeline.
 
-## Features
+## Project Highlights
+- HTML/CSS static web app
+- Docker containerization
+- Jenkins automation (CI/CD)
+- GitHub integration
 
-- About Me section  
-- Technical and Soft Skills  
-- Projects with descriptions and technologies  
-- Education details  
-- Certifications  
-- Internships  
-- Contact Information with Email, GitHub, LinkedIn  
-- Responsive Design for mobile and desktop
-
-## Preview
-![image](https://github.com/user-attachments/assets/9014be24-3815-4299-b3c8-628582e5dc87)
-
-
-## Technologies Used
-
-- HTML5  
-- CSS3 (Responsive Design)  
-- (Optional future features: JavaScript, React)
-
-## Getting Started
-
-To run the project locally:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/harish0921/portfolio-website.git
+## Run Locally
+```bash
+docker build -t devops-static-site .
+docker run -p 8080:80 devops-static-site
